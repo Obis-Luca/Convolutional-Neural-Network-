@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car-Plane Classifier</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Car-Plane Classifier</h1>
+        <form id="uploadForm">
+            <input type="file" name="image" id="imageInput" accept="image/*" required>
+            <button type="submit">Classify Image</button>
+            <div id="loadingSpinner"></div> 
+        </form>
+
+        <div id="result"></div>
+    </div>
+</body>
+</html>
